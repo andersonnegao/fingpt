@@ -42,11 +42,11 @@ trading_system/
 #### **No Windows:**
 ```bash
 # 1. Instalar Python 3.11+
-# Baixe de: https://python.org/downloads/
+# Baixe de: [https://python.org/downloads/](https://python.org/downloads/)
 # ✅ Marque "Add to PATH" durante instalação
 
 # 2. Instalar Node.js 18+
-# Baixe de: https://nodejs.org/
+# Baixe de: [https://nodejs.org/](https://nodejs.org/)
 # ✅ Escolha a versão LTS
 
 # 3. Verificar instalação
@@ -55,10 +55,11 @@ node --version    # Deve mostrar 18+
 npm --version     # Deve mostrar 9+
 ```
 
+
 #### **No Mac:**
 ```bash
 # 1. Instalar Homebrew (se não tiver)
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+/bin/bash -c "$(curl -fsSL [https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh](https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh))"
 
 # 2. Instalar Python e Node
 brew install python@3.11 node
@@ -67,18 +68,16 @@ brew install python@3.11 node
 python3 --version
 node --version
 npm --version
-```
 
 #### **No Linux (Ubuntu/Debian):**
-```bash
-# 1. Atualizar sistema
+```# 1. Atualizar sistema
 sudo apt update && sudo apt upgrade -y
 
 # 2. Instalar Python 3.11
 sudo apt install python3.11 python3.11-pip -y
 
 # 3. Instalar Node.js
-curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+curl -fsSL [https://deb.nodesource.com/setup_18.x](https://deb.nodesource.com/setup_18.x) | sudo -E bash -
 sudo apt install nodejs -y
 
 # 4. Verificar
@@ -92,7 +91,7 @@ npm --version
 **COMO?** - Siga estes passos:
 
 ```bash
-# 1. Criar pasta do projeto
+# # 1. Criar pasta do projeto
 mkdir meu_trading_system
 cd meu_trading_system
 
@@ -115,30 +114,30 @@ cd ..
 ```python
 # Seus símbolos favoritos (máximo 10 para começar)
 STOCK_SYMBOLS = [
-    'AAPL',   # Apple
-    'MSFT',   # Microsoft  
-    'GOOGL',  # Google
-    'AMZN',   # Amazon
-    'TSLA',   # Tesla
-    'NVDA',   # Nvidia
-    'META',   # Meta
-    'NFLX',   # Netflix
-    'AMD',    # AMD
-    'CRM'     # Salesforce
+    'AAPL',   # Apple
+    'MSFT',   # Microsoft  
+    'GOOGL',  # Google
+    'AMZN',   # Amazon
+    'TSLA',   # Tesla
+    'NVDA',   # Nvidia
+    'META',   # Meta
+    'NFLX',   # Netflix
+    'AMD',    # AMD
+    'CRM'     # Salesforce
 ]
 
 # Gestão de risco (MUITO IMPORTANTE!)
 RISK_MANAGEMENT = {
-    'max_position_size': 0.05,    # 5% máximo por posição
-    'stop_loss_pct': 0.02,        # 2% stop loss
-    'take_profit_pct': 0.06,      # 6% take profit
-    'max_daily_loss': 0.02,       # 2% perda diária máxima
-    'max_open_positions': 5,      # 5 posições simultâneas
-    'min_volume': 1000000         # Volume mínimo
+    'max_position_size': 0.05,    # 5% máximo por posição
+    'stop_loss_pct': 0.02,        # 2% stop loss
+    'take_profit_pct': 0.06,      # 6% take profit
+    'max_daily_loss': 0.02,       # 2% perda diária máxima
+    'max_open_positions': 5,      # 5 posições simultâneas
+    'min_volume': 1000000         # Volume mínimo
 }
 
 # Valor inicial do portfolio (para simulação)
-INITIAL_PORTFOLIO_VALUE = 100000  # $100,000
+INITIAL_PORTFOLIO_VALUE = 100000  # $100,000
 ```
 
 ---
@@ -427,3 +426,6 @@ Você agora tem um sistema profissional de trading que:
 
 **Agora é só configurar, testar e começar a surfar na onda dos tubarões! 🦈📈**
 
+=======
+# fingpt
+>>>>>>> 3e3bac3de850b6ca36da883271852d4d533afb02
